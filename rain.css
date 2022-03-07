@@ -1,0 +1,936 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    width: 1920px;
+    height: 930px;
+    display: block;
+    position: relative;
+}
+body::after{
+    content: "";
+    background: url(images/siteye-arkaplantam.png);
+    filter:blur(5px);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+.head{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.head img{
+    width: 150px;
+    height: auto;
+    opacity: 0.8;
+}
+.enüst{
+    display: flex;
+    position: relative;
+}
+.enüst a{
+    margin-right: 70px;
+}
+.orta{
+    display: flex;
+    position: relative;
+    margin-top: -80px;
+}
+.orta a{
+    margin-right: 70px;
+}
+.alt{
+    display: flex;
+    position: relative;
+    margin-top: -30px;
+}  
+.alt a{
+    margin-right: 70px;
+}
+.alt2{
+    display: flex;
+    position: relative;
+    margin-top: -30px;
+}
+.alt2 a{
+    margin-right: 70px;
+}
+.hepsi{
+    width: 1920px;
+    height: 300px;
+    position: absolute;
+    animation-name: rain;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+    top: -1200px;
+    animation-timing-function: linear;
+}
+.hepsi2{
+    width: 1920px;
+    height: 200px;
+    position: absolute;
+    animation-name: rain;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+    animation-delay: 6s;
+    top: -1200px;
+    animation-timing-function: linear;
+}
+
+
+@keyframes rain{
+    0%{
+        top: -930px;
+    }
+    100%{
+        top: 930px;
+    }
+}
+.yol1{
+    animation-name: yol1;
+    animation-timing-function: linear;
+    animation-duration: 16s;
+    position: absolute;
+    top: 800px;
+}
+.yol1 a img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 455px;
+}
+@keyframes yol1{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 800px;
+    }
+}
+.yol2{
+    animation-name: yol2;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    position: absolute;
+    top: 740px;
+}
+.yol2 a img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 630px;
+}
+@keyframes yol2{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 740px;
+    }
+}
+.yol3{
+    animation-name: yol3;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    position: absolute;
+    top: 770px;
+}
+.yol3 a img{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    left: 830px;
+}
+@keyframes yol3{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 770px;
+    }
+}
+.yol4{
+    animation-name: yol4;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    position: absolute;
+    top: 740px;
+}
+.yol4 a img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 1030px;
+}
+@keyframes yol4{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 740px;
+    }
+}
+.yol5{
+    animation-name: yol5;
+    animation-timing-function: linear;
+    animation-duration: 14s;
+    position: absolute;
+    top: 770px;
+}
+.yol5 a img{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    left: 1200px;
+    transform: rotate(20deg);
+}
+@keyframes yol5{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 770px;
+    }
+}
+.yol6{
+    animation-name: yol6;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 650px;
+}
+.yol6 a img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 530px;
+    transform: rotate(-60deg);
+}
+@keyframes yol6{
+    0%{
+        top: -300px;
+    }
+    100%{
+        top: 650px;
+    }
+}
+.yol7{
+    animation-name: yol7;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    position: absolute;
+    top: 580px;
+}
+.yol7 a img{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    left: 705px;
+    transform: rotate(30deg);
+}
+@keyframes yol7{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 580px;
+    }
+}
+.yol8{
+    animation-name: yol8;
+    animation-timing-function: linear;
+    animation-duration: 16s;
+    position: absolute;
+    top: 580px;
+}
+.yol8 a img{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    left: 900px;
+    transform: rotate(10deg);
+}
+@keyframes yol8{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 580px;
+    }
+}
+.yol9{
+    animation-name: yol9;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    position: absolute;
+    top: 620px;
+}
+.yol9 a img{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    left: 1080px;
+    transform: rotate(-110deg);
+}
+@keyframes yol9{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 620px;
+    }
+}
+.yol10{
+    animation-name: yol10;
+    animation-timing-function: linear;
+    animation-duration: 13s;
+    position: absolute;
+    top: 520px;
+}
+.yol10 a img{
+    position: absolute;
+    width: 180px;
+    height: auto;
+    left: 600px;
+    transform: rotate(-110deg);
+}
+@keyframes yol10{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 520px;
+    }
+}
+.yol11{
+    animation-name: yol11;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 500px;
+}
+.yol11 a img{
+    position: absolute;
+    width: 180px;
+    height: auto;
+    left: 770px;
+    transform: rotate(0);
+}
+@keyframes yol11{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 500px;
+    }
+}
+.yol12{
+    animation-name: yol12;
+    animation-timing-function: linear;
+    animation-duration: 11s;
+    position: absolute;
+    top: 450px;
+}
+.yol12 a img{
+    position: absolute;
+    width: 170px;
+    height: auto;
+    left: 930px;
+    transform: rotate(-30deg);
+}
+@keyframes yol12{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 450px;
+    }
+}
+.yol13{
+    animation-name: yol13;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    position: absolute;
+    top: 440px;
+}
+.yol13 a img{
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 1070px;
+    transform: rotate(50deg);
+}
+@keyframes yol13{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 440px;
+    }
+}
+.yol14{
+    animation-name: yol14;
+    animation-timing-function: linear;
+    animation-duration: 16s;
+    position: absolute;
+    top: 400px;
+}
+.yol14 a img{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    left: 710px;
+    transform: rotate(-50deg);
+}
+@keyframes yol14{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 400px;
+    }
+}
+.yol15{
+    animation-name: yol15;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 420px;
+}
+.yol15 a img{
+    position: absolute;
+    width: 135px;
+    height: auto;
+    left: 840px;
+    transform: rotate(0);
+}
+@keyframes yol15{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 420px;
+    }
+}
+.yol16{
+    animation-name: yol16;
+    animation-timing-function: linear;
+    animation-duration:7s;
+    position: absolute;
+    top: 350px;
+}
+.yol16 a img{
+    position: absolute;
+    width: 110px;
+    height: auto;
+    left: 880px;
+    transform: rotate(-15deg);
+}
+@keyframes yol16{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 350px;
+    }
+}
+.yol17{
+    animation-name: yol17;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 370px;
+}
+.yol17 a img{
+    position: absolute;
+    width: 110px;
+    height: auto;
+    left: 990px;
+    transform: rotate(0);
+}
+@keyframes yol17{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 370px;
+    }
+}
+.yol18{
+    animation-name: yol18;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    position: absolute;
+    top: 370px;
+}
+.yol18 a img{
+    position: absolute;
+    width: 110px;
+    height: auto;
+    left: 1100px;
+    transform: rotate(-10deg);
+}
+@keyframes yol18{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 370px;
+    }
+}
+.yol19{
+    animation-name: yol19;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    position: absolute;
+    top: 310px;
+}
+.yol19 a img{
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 1000px;
+    transform: rotate(-10deg);
+}
+@keyframes yol19{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 310px;
+    }
+}
+.yol20{
+    animation-name: yol20;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    position: absolute;
+    top: 320px;
+}
+.yol20 a img{
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 1090px;
+    transform: rotate(-10deg);
+}
+@keyframes yol20{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 320px;
+    }
+}
+.yol21{
+    animation-name: yol21;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    position: absolute;
+    top: 330px;
+}
+.yol21 a img{
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 1180px;
+    transform: rotate(40deg);
+}
+@keyframes yol21{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 330px;
+    }
+}
+.yol22{
+    animation-name: yol22;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 310px;
+}
+.yol22 a img{
+    position: absolute;
+    width: 60px;
+    height: auto;
+    left: 1170px;
+    transform: rotate(-20deg);
+}
+@keyframes yol22{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 310px;
+    }
+}
+.yol23{
+    animation-name: yol23;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    position: absolute;
+    top: 310px;
+}
+.yol23 a img{
+    position: absolute;
+    width: 60px;
+    height: auto;
+    left: 1240px;
+    transform: rotate(40deg);
+}
+@keyframes yol23{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 310px;
+    }
+}
+.yol24{
+    animation-name: yol24;
+    animation-timing-function: linear;
+    animation-duration: 11s;
+    position: absolute;
+    top: 290px;
+}
+.yol24 a img{
+    position: absolute;
+    width: 35px;
+    height: auto;
+    left: 1240px;
+    transform: rotate(10deg);
+}
+@keyframes yol24{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 290px;
+    }
+}
+.yol25{
+    animation-name: yol25;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    position: absolute;
+    top: 310px;
+}
+.yol25 a img{
+    position: absolute;
+    width: 50px;
+    height: auto;
+    left: 1330px;
+    transform: rotate(-50deg);
+}
+@keyframes yol25{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 310px;
+    }
+}
+.yol26{
+    animation-name: yol26;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    position: absolute;
+    top: 290px;
+}
+.yol26 a img{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    left:1210px;
+    transform: rotate(20deg);
+}
+@keyframes yol26{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 290px;
+    }
+}
+.yol27{
+    animation-name: yol27;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    position: absolute;
+    top: 280px;
+}
+.yol27 a img{
+    position: absolute;
+    width: 25px;
+    height: auto;
+    left:1185px;
+    transform: rotate(-30deg);
+}
+@keyframes yol27{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 280px;
+    }
+}
+.yol28{
+    animation-name: yol28;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 285px;
+}
+.yol28 a img{
+    position: absolute;
+    width: 23px;
+    height: auto;
+    left:1165px;
+    transform: rotate(80deg);
+}
+@keyframes yol28{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 285px;
+    }
+}
+.yol29{
+    animation-name: yol29;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    position: absolute;
+    top: 280px;
+}
+.yol29 a img{
+    position: absolute;
+    width: 18px;
+    height: auto;
+    left:1150px;
+    transform: rotate(20deg);
+}
+@keyframes yol29{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 280px;
+    }
+}
+.yol30{
+    animation-name: yol30;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    position: absolute;
+    top: 290px;
+}
+.yol30 a img{
+    position: absolute;
+    width: 15px;
+    height: auto;
+    left:1145px;
+    transform: rotate(20deg);
+}
+@keyframes yol30{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 290px;
+    }
+}
+.yol31{
+    animation-name: yol31;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 285px;
+}
+.yol31 a img{
+    position: absolute;
+    width: 12px;
+    height: auto;
+    left:1135px;
+    transform: rotate(20deg);
+}
+@keyframes yol31{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 285px;
+    }
+}
+.yol32{
+    animation-name: yol32;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 285px;
+}
+.yol32 a img{
+    position: absolute;
+    width: 10px;
+    height: auto;
+    left:1120px;
+    transform: rotate(20deg);
+}
+@keyframes yol32{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 285px;
+    }
+}
+.yol33{
+    animation-name: yol33;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    position: absolute;
+    top: 285px;
+}
+.yol33 a img{
+    position: absolute;
+    width: 10px;
+    height: auto;
+    left:11300px;
+    transform: rotate(20deg);
+}
+@keyframes yol33{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 285px;
+    }
+}
+.yol34{
+    animation-name: yol34;
+    animation-timing-function: linear;
+    animation-duration: 12s;
+    position: absolute;
+    top: 290px;
+}
+.yol34 a img{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    left:1200px;
+    transform: rotate(20deg);
+}
+@keyframes yol34{
+    0%{
+        top: -300px
+    }
+    100%{
+        top: 290px;
+    }
+}
+
+.span1{left: 455px;}
+.span2{left: 630px;}
+.span3{left: 830px;}
+.span4{left: 740px;}
+.span5{left: 1200px;}
+.span6{left: 530px;}
+.span7{left: 705px;}
+.span8{left: 900px;}
+.span9{left: 1080px;}
+.span10{left: 600px;}
+.span11{left: 770px;}
+.span12{left: 930px;}
+.span13{left: 1070px;}
+.span14{left: 710px;}
+.span15{left: 840px;}
+.span16{left: 880px;}
+.span17{left: 990px;}
+.span18{left: 1100px;}
+.span19{left: 1000px;}
+.span20{left: 1090px;}
+.span21{left: 1180px;}
+.span22{left: 1170px;}
+.span23{left: 1240px;}
+.span24{left: 1240px;}
+.span25{left: 1330px;}
+.span26{left: 1210px;}
+.span27{left: 1185px;}
+.span28{left: 1165px;}
+.span29{left: 1150px;}
+.span30{left: 1145px;}
+.span31{left: 1135px;}
+.span32{left: 1120px;}
+.span33{left: 1130px;}
+.span33{left: 11200x;}
+
+div.photo-container a:hover span {
+    visibility: visible;
+}
+
+.lightbox{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+}
+.lightbox:target {
+    display: block;
+}
+.lightbox span {
+    /* Full width and height */
+    display: block;
+    width: 80%;
+    height: 80%;
+  
+    /* Size and position background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:auto;
+    margin-top: 90px;
+  }
+
+  div .photo-container{
+    height: auto;
+    position: relative;
+    max-width: 200px;
+    margin: 1.563em auto;
+    display: inline-block;
+}
+
+div.photo-container a {
+    color: white;
+    cursor: default;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+}
+
+div.photo-container a span {
+    visibility: hidden;
+    position: absolute;
+    top: -30px;
+    background: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black ;
+    font-size: 0.8em;
+    padding: 0.3em;
+    cursor: default;
+    line-height: 1.4;
+    border-radius: 6px;
+}
